@@ -79,6 +79,46 @@ else:
     a.swim()
 
 
+# Operator overloading
+
+print(9+9)
+print("chinmay"+"deshpande")
+
+class A:
+    def __init__(self,x):
+        self.x = x
+    def __add__(self, o):
+        return self.x + o.x
+
+
+a = A(3)
+b = A(4)
+print(a+b)
+
+class X:
+    def __init__(self,x):
+        self.x = x
+
+    def __gt__(self, other,o):
+        if(self.x > other.x):
+            return True
+        else:
+            return False
+
+
+x1 = X(5)
+x2 = X(7)
+
+print(5 > 7)
+print(x1 > x2)
+
+
+
+
+
+
+
+
 
 
 
