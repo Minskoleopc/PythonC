@@ -129,7 +129,7 @@ result13 = re.findall(r'a[nkr][\w]*',str11)
 print(result13)
 
 str12 = 'vijay 07-11-189 chinmay 05-02-1989 amit 08-11-1993'
-//
+
 
 
 
